@@ -11,4 +11,8 @@ require_once PATH_SYSTEM . '/core/Controller.php';
 $control = new Controller();
 $control->load($controller, $action);
 
+
+
+
+
 ?>
