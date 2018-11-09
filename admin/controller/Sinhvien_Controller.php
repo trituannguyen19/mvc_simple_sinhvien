@@ -2,13 +2,14 @@
 	/**
 	 * 
 	 */
+	require_once constant("PATH_ADMIN").'/models/sv_models.php';
 	class Sinhvien_Controller
 	{
 		private $db = null;
 		
 		public function __construct()
 		{
-			$this->db = new Models();
+			$this->db = new Database();
 			$this->db->connect();
 		}
 
