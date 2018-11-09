@@ -9,7 +9,7 @@
 		
 		public function __construct()
 		{
-			$this->db = new Database();
+			$this->db = new Sv_models();
 			$this->db->connect();
 		}
 
